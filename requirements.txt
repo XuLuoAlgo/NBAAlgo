@@ -5,9 +5,7 @@
 #    pip-compile
 #
 beautifulsoup4==4.13.4
-    # via
-    #   bs4
-    #   yfinance
+    # via bs4
 bs4==0.0.2
     # via -r requirements.in
 certifi==2025.4.26
@@ -20,39 +18,24 @@ cycler==0.12.1
     # via matplotlib
 fonttools==4.57.0
     # via matplotlib
-frozendict==2.4.6
-    # via yfinance
 idna==3.10
     # via requests
 kiwisolver==1.4.8
     # via matplotlib
 matplotlib==3.10.1
     # via -r requirements.in
-multitasking==0.0.11
-    # via yfinance
-nba-api==1.9.0
-    # via -r requirements.in
 numpy==2.2.5
     # via
     #   -r requirements.in
     #   contourpy
     #   matplotlib
-    #   nba-api
     #   pandas
-    #   yfinance
 packaging==25.0
     # via matplotlib
 pandas==2.2.3
-    # via
-    #   -r requirements.in
-    #   nba-api
-    #   yfinance
-peewee==3.18.1
-    # via yfinance
+    # via -r requirements.in
 pillow==11.2.1
     # via matplotlib
-platformdirs==4.3.7
-    # via yfinance
 pyparsing==3.2.3
     # via matplotlib
 python-dateutil==2.9.0.post0
@@ -60,14 +43,9 @@ python-dateutil==2.9.0.post0
     #   matplotlib
     #   pandas
 pytz==2025.2
-    # via
-    #   pandas
-    #   yfinance
+    # via pandas
 requests==2.32.3
-    # via
-    #   -r requirements.in
-    #   nba-api
-    #   yfinance
+    # via -r requirements.in
 six==1.17.0
     # via python-dateutil
 soupsieve==2.7
@@ -78,5 +56,3 @@ tzdata==2025.2
     # via pandas
 urllib3==2.4.0
     # via requests
-yfinance==0.2.57
-    # via -r requirements.in
