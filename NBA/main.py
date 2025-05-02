@@ -16,7 +16,7 @@ YEARS = [str(year) for year in range(2020, 2016, -1)]
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 }
-DATA_DIR = f"{os.getcwd()}/sports/data"
+DATA_DIR = f"{os.getcwd()}/NBA/data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
 
