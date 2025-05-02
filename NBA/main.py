@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from sports.exceptions import ScraperException, RateLimitException
+from NBA.exceptions import ScraperException, RateLimitException
 
 """
 Note that this site has a rate limit. The sleep timer is to ensure that we remain under the 

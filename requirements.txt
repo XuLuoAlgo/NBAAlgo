@@ -12,6 +12,8 @@ certifi==2025.4.26
     # via requests
 charset-normalizer==3.4.1
     # via requests
+click==8.1.8
+    # via -r requirements.in
 contourpy==1.3.2
     # via matplotlib
 cycler==0.12.1
