@@ -88,7 +88,7 @@ def get_month_urls_from_response(response: requests.Response) -> list[str]:
 
 def main() -> None:
     for year in YEARS:
-        csv_path = f"{DATA_DIR}/NBA_{year}_games.csv"
+        csv_path = f"{DATA_DIR}/NBA_reference_games.csv"
         if os.path.exists(csv_path) and not click.confirm(
             f"We already have data for the {year} NBA season. Would you like to update it?",
             os.path.exists(csv_path),
